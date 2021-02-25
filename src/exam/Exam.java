@@ -54,7 +54,7 @@ public abstract class Exam {
         return date;
     }
     
-    public String mystr()
+    public String isSeason()
     {
         Scanner scanner = new Scanner (System.in);
         String mystr = scanner.nextLine();
