@@ -5,6 +5,8 @@
  */
 package exam;
 
+import java.util.Scanner;
+
 /**
  *
  * @author mic_d
@@ -15,6 +17,7 @@ public abstract class Exam {
     public String book = "";
     public String librarian = "";
     public int date = 0;
+    public String mystr = "";
     
     /**
      * @param args the command line arguments
@@ -49,6 +52,13 @@ public abstract class Exam {
     public int getdate()
     {
         return date;
+    }
+    
+    public String mystr()
+    {
+        Scanner scanner = new Scanner (System.in);
+        String mystr = scanner.nextLine();
+        return mystr;
     }
     
     
